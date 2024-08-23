@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.svg";
-
 import { Footer } from "flowbite-react";
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
@@ -15,7 +13,7 @@ const MyFooter = () => {
               className="text-2xl font-semibold flex items-center space-x-3"
             >
               <img
-                src={logo}
+                src="assets/logo.svg"
                 alt=""
                 className="w-10 inline-block items-center"
               />
@@ -52,7 +50,7 @@ const MyFooter = () => {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright by="Ammar Hesham™" href="#" year={2023} />
+          <Footer.Copyright by="Ammar Hesham™" href="#" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />

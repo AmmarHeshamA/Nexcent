@@ -5,18 +5,18 @@ const Blog = () => {
     {
       id: 1,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      image: "/src/assets/image 18.png",
+      image: "assets/image 18.png",
     },
     {
       id: 2,
       title:
         "What are your safeguarding responsibilities and how can you manage them?",
-      image: "/src/assets/image 19.png",
+      image: "assets/image 19.png",
     },
     {
       id: 3,
       title: "Revamping the Membership Model with Triathlon Australia",
-      image: "/src/assets/image 20.png",
+      image: "assets/image 20.png",
     },
   ];
   return (

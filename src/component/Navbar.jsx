@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import logo from "../assets/logo.svg";
 import { Link } from "react-scroll";
 import { FaXmark, FaBars } from "react-icons/fa6";
 
@@ -49,7 +48,7 @@ const Navbar = () => {
             href=""
             className="text-2xl font-semibold flex items-center space-x-3"
           >
-            <img src={logo} alt="" className="w-10 inline-block items-center" />
+            <img src="assets/logo.svg" alt="" className="w-10 inline-block items-center" />
             <span className="text-brandSecondary uppercase">Nexcent</span>
           </a>
           {/* nav item for large devices */}

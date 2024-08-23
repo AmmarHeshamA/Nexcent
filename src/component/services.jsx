@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Services = () => {
   const services = [
     {
@@ -7,21 +8,21 @@ const Services = () => {
       title: "Membership Organisations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/Membership Organisations.png",
+      image: "assets/Membership Organisations.png",
     },
     {
       id: 2,
       title: "National Associations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/National Associations.png",
+      image: "assets/National Associations.png",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/Clubs And Groups.png",
+      image:"assets/Clubs And Groups.png",
     },
   ];
   return (
@@ -35,13 +36,13 @@ const Services = () => {
         </p>
 
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="/src/assets/Logo.png" alt="" />
-          <img src="/src/assets/Logo (1).png" alt="" />
-          <img src="/src/assets/Logo (2).png" alt="" />
-          <img src="/src/assets/Logo (3).png" alt="" />
-          <img src="/src/assets/Logo (4).png" alt="" />
-          <img src="/src/assets/Logo (5).png" alt="" />
-          <img src="/src/assets/Logo (6).png" alt="" />
+          <img src="assets/Logo.png" alt="" />
+          <img src="assets/Logo (1).png" alt="" />
+          <img src="assets/Logo (2).png" alt="" />
+          <img src="assets/Logo (3).png" alt="" />
+          <img src="assets/Logo (4).png" alt="" />
+          <img src="assets/Logo (5).png" alt="" />
+          <img src="assets/Logo (6).png" alt="" />
         </div>
 
         <h2

@@ -1,11 +1,13 @@
 import React from "react";
 
+
+
 const About = () => {
   return (
     <div>
       <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 ">
         <div>
-          <img src="/src/assets/About.png" alt="" />
+          <img src="assets/About.png" alt="" />
         </div>
         <div className="md:w-3/5 mx-auto pl-3">
           <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5 ">
@@ -40,7 +42,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/Members.png" alt="" />
+                <img src="assets/Members.png" alt="" />
                 <div>
                   <h4 className="text-2xl font-semibold text-neutralDGrey">
                     2,245,341
@@ -49,7 +51,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/Clubs.png" alt="" />
+                <img src="assets/Clubs.png" alt="" />
                 <div>
                   <h4 className="text-2xl font-semibold text-neutralDGrey">
                     46,328
@@ -61,7 +63,7 @@ const About = () => {
 
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/Event Bookings.png" alt="" />
+                <img src="assets/Event Bookings.png" alt="" />
                 <div>
                   <h4 className="text-2xl font-semibold text-neutralDGrey">
                     828,867
@@ -70,7 +72,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/Payments.png" alt="" />
+                <img src="assets/Payments.png" alt="" />
                 <div>
                   <h4 className="text-2xl font-semibold text-neutralDGrey">
                     1,926,436
